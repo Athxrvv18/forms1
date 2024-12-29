@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Design</title>
+</head>
+<body>
+
+  <h1>Form</h1>
+
+  <form>
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="sex">Sex:</label><br>
+    <input type="radio" id="male" name="sex" value="male">
+    <label for="male">Male</label><br>
+    <input type="radio" id="female" name="sex" value="female">
+    <label for="female">Female</label><br><br>
+
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+      <option value="">Select an option</option>
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+      {/* Add more country options as needed */}
+    </select><br><br>
+
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+    <input type="checkbox" id="subscribe" name="subscribe">
+    <label for="subscribe">Subscribe?</label><br><br>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</body>
+</html>
